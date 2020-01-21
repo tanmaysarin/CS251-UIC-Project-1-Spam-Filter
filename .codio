@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Node version": "node --version"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+  },
+  "debugger": [{"type":"GDB","command":"./program.exe","before":"","uuid":"793a0872-8059-6824-a2f6-3f876fbf3932","name":"main.cpp"}]
+}
